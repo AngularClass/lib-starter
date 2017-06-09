@@ -48,10 +48,6 @@ const config = {
         ]
       },
       {
-        test: /\.gql$/,
-        loader: 'graphql-tag/loader'
-      },
-      {
         test: /\.html$/,
         loader: 'raw-loader'
       },
@@ -77,10 +73,7 @@ const config = {
   plugins: [
      new webpack.ContextReplacementPlugin(
       /angular(\\|\/)core(\\|\/)@angular/,
-      root('src'), // location of your src
-      {
-        // your Angular Async Route paths relative to this root directory
-      }
+      root('src')
     )
   ]
 }

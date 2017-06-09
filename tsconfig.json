@@ -14,18 +14,18 @@
     "outDir": "./dist",
     "sourceMap": true,
     "stripInternal": true,
+    "moduleResolution":"node",
     "target": "es5",
     "typeRoots": [
       "./node_modules/@types",
       "./node_modules"
     ],
     "types": [
-      "node"
+      "node",
+      "mocha",
+      "chai"
     ]
   },
-  "exclude": [
-    "./src/**/*.spec.ts"
-  ],
   "include": [
     "./src/**/*.ts"
   ]

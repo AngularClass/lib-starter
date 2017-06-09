@@ -1,4 +1,7 @@
-{
+{ 
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true
+  },
   "compilerOptions": {
     "declaration": true,
     "emitDecoratorMetadata": true,
@@ -17,11 +20,7 @@
       "node"
     ]
   },
-  "exclude": [
-    "./src/**/*.spec.ts"
-  ],
-  "extends": "./tsconfig.json",
   "files": [
-    "./src/index.ts"
+    "src/index.ts"
   ]
 }

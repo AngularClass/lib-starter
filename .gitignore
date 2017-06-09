@@ -10,3 +10,4 @@ dist
 build/Release
 coverage
 .nyc_output
+demo/node_modules

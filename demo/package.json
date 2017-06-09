@@ -1,0 +1,13 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "angular-lib-starter": "file:../dist/"
+  },
+  "devDependencies": {
+    "rollup": "^0.42.0",
+    "webpack-rollup-loader": "^0.1.3"
+  }
+}
