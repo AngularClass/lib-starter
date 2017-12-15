@@ -14,7 +14,7 @@
 ## Builds
 This starter prepares 2 different types of builds of your lib
 * **esm** or ES2015 Modules
-  * this build is a transpilation of your Typescript code to ES5 and ES2015 modules. Its' not bundled. This is needed for treeshaking when users use your lib
+  * this build is a transpilation of your Typescript code to ES5 and ES2015 modules. Its' not bundled. This is needed for tree-shaking when users use your lib
 * **UMD**
   * this is a bundle of ES5 code. What you would typically get from webpack or rollup.
 
@@ -30,6 +30,6 @@ The build system generates AOT metadata too, so you're good.
 * `"build"`: does all the above
 * `"copy"`: copies over file to dist
 * `"package"`: does all the above
-* `"release"`: bumps the version, creates a tag, pushes to your master, builds then publiseh to npm
+* `"release"`: bumps the version, creates a tag, pushes to your master, builds then publishes to npm
 * `"pack"`: produces a tarball
 * `"coverage"`: runs the test then coverage
